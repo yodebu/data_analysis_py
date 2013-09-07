@@ -41,4 +41,5 @@ for station in range(len(src)):
 		start_time = fields[5].text
 		end_time = fields[-1].text
 		out.writerow([number, speed, coaches, origin, end, start_time, end_time])	
-	
+
+data.close()
